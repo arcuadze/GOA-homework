@@ -6,3 +6,4 @@ print(favourite_food)
 print(userAge)
 print(user_name)
 print(friendAge)
+

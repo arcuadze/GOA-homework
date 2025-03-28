@@ -22,4 +22,4 @@ num18="me var"
 num19="mariami."
 num20="chemi gvaria"
 num21="archuadze"
-print(num18 + "  " + num19 + "  " + num20 + "  " + num21)
+print(num18 + " " + num19 + " " + num20 + " " + num21)
