@@ -11,5 +11,6 @@ print(num1+num2)
 
 num1=float(input(3.50))
 num2=float(input(2.30))
+int1=10
 
 # მათი სხვაობაა 1.2
