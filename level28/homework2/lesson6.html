@@ -1,0 +1,7 @@
+def filter_even_odd(lst, s):
+    if s == "even":
+        return [x for x in lst if x % 2 == 0]
+    elif s == "odd":
+        return [x for x in lst if x % 2 != 0]
+    else:
+        return []

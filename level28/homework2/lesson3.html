@@ -1,0 +1,8 @@
+import math
+
+def root_or_square(n):
+    root = math.isqrt(n)
+    if root * root == n:
+        return root
+    else:
+        return n ** 2
