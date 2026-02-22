@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.div1{
+    height: 500px;
+    width: 330px;
+    background-color:hsl(0, 0%, 12%) ;
+    border-radius: 15px;
+}
+
+
+img{
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 35%;
+}
+#p1{
+    font-size: 25px;
+    color: white;
+    font-family:Outfit ;
+    padding-left: 75px;
+}
+#p2{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    font-family:Outfit ;
+    padding-left: 80px;
+}
+
+
+#p3{
+    font-size: 14px;
+    color:hsl(0, 3%, 82%) ;
+    font-family:Outfit ;
+    padding-left: 35px;
+}
+
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family:Outfit ;
+}
+
+.div2 button{
+    width: 250px;
+    height: 30px;
+    border-radius:8px ;
+    background-color:hsl(0, 0%, 20%);
+    border: none;
+    margin-left: 37px;
+    color: white;
+    font-family:Outfit ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
