@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<title>Box Model დავალება</title>
+<style>
+  /* 1) ახსნა:
+     Content – ელემენტის შიგთავსი
+     Padding – შიდა დაშორება შიგთავსსა და ჩარჩოს შორის
+     Border – ჩარჩო, რომელიც გარს ერტყმის ელემენტს
+     Margin – გარე დაშორება ელემენტებს შორის
+  */
+
+  /* 2) პარაგრაფი padding-ით */
+  p {
+    background: lightblue;
+    padding: 30px;
+    text-align: center;
+  }
+
+  /* 3) დივი 500x500px */
+  .box {
+    width: 500px;
+    height: 500px;
+    background: yellow;
+    border: 2px solid black;
+    padding: 30px;  /* შიგნით დაშორება */
+    margin: 50px;   /* გარედან დაშორება */
+  }
+</style>
+</head>
+
+<body>
+
+<h3>1) ახსნა</h3>
+<p>
+  Content – შიგთავსი | Padding – შიდა დაშორება | Border – ჩარჩო | Margin – გარე დაშორება
+</p>
+
+<h3>2) პარაგრაფი padding-ით</h3>
+<p>ეს პარაგრაფი ცენტრშია Padding-ის დახმარებით!</p>
+
+<h3>3) დივი 500x500px</h3>
+<div class="box">
+  ყვითელი ბლოკი (500x500px)<br>
+  შიგნით: padding 30px<br>
+  გარედან: margin 50px
+</div>
+
+</body>
+</html>

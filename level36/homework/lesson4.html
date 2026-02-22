@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model დავალებები</
+    
+      Content – შიგთავსი, სადაც მოთავსებულია ტექსტი ან სურათი.
+      Padding – შიდა სივრცე შიგთავსსა და ჩარჩოს შორის.
+      Border – ჩარჩო, რომელიც გარს ერტყმის padding-ს.
+      Margin – გარე სივრცე ელემენტებს შორის
+    .block1 {
+      background-color: lightgray;
+      padding: 20px;
+      border: 1px solid black;
+      width: 250px;
+      text-align: center;
+      margin-bottom:
+    
+    .block {
+      height: 50px;
+      color: white;
+      text-align: center;
+      line-height: 50px;
+      font-family: sans-serif;
+    }
+
+    .first {
+      background-color: steelblue;
+    }
+
+    .second {
+      background-color: seagreen;
+      margin-top: 10px; /* Margin აშორებს ბლოკებს */
+    }
+
+    /* ===============================
+       4) იგივე მაგალითი განმტკიცებისთვის
+       =============================== */
+    .example {
+      height: 50px;
+      background-color: plum;
+      margin-top: 10px;
+      text-align: center;
+      line-height: 50px;
+      border: 2px solid purple;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 1) ახსნა სიტყვიერად (დაწერილი ზემოთ კომენტარად) -->
+  <h2>1) Content / Padding / Border / Margin ახსნა</h2>
+  <p>Paint-ში დახატე Box Model — ცენტრში content, მის ირგვლივ padding, border და margin.</p>
+
+  <!-- 2) ერთი ბლოკი Padding-ით -->
+  <h2>2) ერთი ბლოკი Padding-ით</h2>
+  <div class="block1">ეს არის ჩემი ბლოკი</div>
+
+  <!-- 3) ორი ბლოკი Margin-ით -->
+  <h2>3) ორი ბლოკი Margin-ით</h2>
+  <div class="block first">პირველი ბლოკი</div>
+  <div class="block second">მეორე ბლოკი</div>
+
+  <p><b>კითხვა:</b> რისთვის ვიყენებთ margin-ს?</p>
+  <p><b>პასუხი:</b> Margin ქმნის დაშორებას ელემენტებს შორის. თუ არ მივუთითებთ, ბლოკები ერთმანეთს მიეკვრებიან.</p>
+
+  <!-- 4) განმტკიცების მაგალითი -->
+  <h2>4) განმტკიცება (იგივე margin მაგალითი)</h2>
+  <div class="example">ეს ბლოკი ზემოთ მდებარე ელემენტს აშორებს margin-ით</div>
+
+</body>
+</html>

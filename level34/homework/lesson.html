@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 34 – ფსევდო-კლასები</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    /* 1) Hover pseudo-class – ლინკი იცვლის ფერს როცა მაუსი მიდის */
+    a {
+      color: blue; /* საწყისი ფერი */
+      text-decoration: none;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: red; /* როცა მაუსი გადადის */
+    }
+
+    /* 3) Visited pseudo-class – უკვე ნანახი ლინკი */
+    a:visited {
+      color: purple; /* გახსნილი ბმული */
+    }
+
+    /* 5) Active pseudo-class ლინკზე */
+    a:active {
+      color: orange;
+      font-size: 22px; /* ზომის შეცვლა დაჭერისას */
+    }
+
+    /* 2) Active pseudo-class ღილაკზე */
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: 2px solid #4CAF50;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    button:active {
+      background-color: #45a049;
+      border: 2px dashed black;
+      transform: scale(0.95); /* პატარა დაჭერის ეფექტი */
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Level 34 – ფსევდო-კლასების მაგალითები</h2>
+
+  <!-- 1, 3, 4, 5 დავალება -->
+  <p>
+    <a href="https://www.google.com" target="_blank">დააჭირე ამ ბმულს</a>
+  </p>
+
+  <!-- 2 დავალება -->
+  <button>დააჭირე ღილაკს</button>
+
+</body>
+</html>

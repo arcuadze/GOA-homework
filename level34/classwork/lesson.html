@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ფსევდო-კლასების მაგალითი</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    /* ბმულების ფსევდო-კლასები */
+    a:link {
+      color: blue;
+    }
+    a:visited {
+      color: purple;
+    }
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+    a:active {
+      color: green;
+    }
+
+    /* Input focus */
+    input {
+      padding: 8px;
+      border: 2px solid #aaa;
+      border-radius: 5px;
+      outline: none;
+    }
+    input:focus {
+      border-color: orange;
+      background-color: #fff5e6;
+    }
+
+    /* პარაგრაფები */
+    div {
+      background-color: white;
+      border: 2px solid #ccc;
+      width: 50%;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    div p:first-child {
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    div p:nth-child(2) {
+      color: crimson;
+      font-style: italic;
+    }
+
+    div p:last-child {
+      color: darkgreen;
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>ფსევდო-კლასების მაგალითი</h2>
+
+  <a href="#">დააჭირე ბმულს</a><br><br>
+
+  <input type="text" placeholder="შეიყვანე ტექსტი"><br><br>
+
+  <div>
+    <p>პირველი პარაგრაფი (:first-child)</p>
+    <p>მეორე პარაგრაფი (:nth-child(2))</p>
+    <p>ბოლო პარაგრაფი (:last-child)</p>
+  </div>
+
+</body>
+</html>
