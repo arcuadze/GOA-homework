@@ -1,0 +1,17 @@
+<button onclick="rotateY()">Click</button>
+<div class="box2"></div>
+
+<style>
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: 0.5s;
+}
+</style>
+
+<script>
+function rotateY() {
+  document.querySelector('.box2').style.transform = "rotateY(180deg)";
+}
+</script>
